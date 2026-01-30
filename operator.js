@@ -63,3 +63,34 @@ switch (browser) {
         console.log("same all!!");
         break;
 }
+
+let i = 3;
+// while (i > 0) {
+//     console.log(`while: ${i}`);
+//     i--;
+// }
+do {
+    console.log(`do while: ${i}`);
+    i--;
+} while (i > 0);
+console.log("===========================");
+for(let i = 3; i > 0; i = i - 2) {
+    console.log(`for: ${i}`);
+}
+console.log("===========================");
+// for (let i = 0; i < 10; i++) {
+//     for(let j = 0; j < 10; j++) {
+//         console.log(`i: ${i}, j: ${j}`);
+//     }
+// }
+// for (let i = 0; i < 11; i++) {
+//     if(i % 2 = == 0) {
+//         console.log(`i: ${i}`);
+//     }
+// }
+for (let i = 0; i < 11; i++) {
+    if(i > 8) {
+        break;
+    }
+    console.log(`i: ${i}`);
+}
