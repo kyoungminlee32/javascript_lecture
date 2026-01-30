@@ -1,5 +1,5 @@
 const button = document.getElementById("lotto-button");
 
 button.addEventListener("click", () => {
-    console.log("더하기12");
+    console.log("더하기1");
 })
