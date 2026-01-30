@@ -76,10 +76,30 @@ const simplePrint2 = () => {console.log("simplePrint22222!");}
 simplePrint2();
 console.log("===========================");
 const add = (a, b) => a + b;
+// const add = (a, b) =>{
+//     return a + b;
+// }
 console.log(add);
 console.log("===========================");
-const add2 =function() {
+const add2 =function(a, b) {
     return a + b;
 }
 console.log(2 + 3);
 console.log("===========================");
+(
+    () => {
+        console.log("IFFE arrow function");
+    }
+)();
+console.log("===========================");
+(
+    function hellow() {
+        console.log("IFFE hellow");
+    }
+)();
+console.log("===========================");
+(
+    function() {
+        console.log("IFFE function");
+    }
+)();
