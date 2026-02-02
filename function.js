@@ -72,7 +72,7 @@ const simplePrint = function() {
 }
 simplePrint();
 console.log("===========================");
-const simplePrint2 = () => {console.log("simplePrint22222!");}
+const simplePrint2 = () => console.log("simplePrint22222!");
 simplePrint2();
 console.log("===========================");
 const add = (a, b) => a + b;
@@ -103,3 +103,4 @@ console.log("===========================");
         console.log("IFFE function");
     }
 )();
+console.log("===========================");
