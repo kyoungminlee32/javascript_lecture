@@ -66,5 +66,4 @@ rectangle.draw();
 console.log(triangle.getArea());
 triangle.draw();
 
-
 console.log("==========================="); 
